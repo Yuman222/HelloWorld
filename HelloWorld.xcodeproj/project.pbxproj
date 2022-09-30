@@ -13,6 +13,8 @@
 		7A73988928E48DC20035616D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A73988728E48DC20035616D /* Main.storyboard */; };
 		7A73988B28E48DC30035616D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A73988A28E48DC30035616D /* Assets.xcassets */; };
 		7A73988E28E48DC30035616D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A73988C28E48DC30035616D /* LaunchScreen.storyboard */; };
+		7A73989728E494930035616D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A73989528E494930035616D /* Main.storyboard */; };
+		7A73989928E495240035616D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A73989828E495240035616D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7A73988A28E48DC30035616D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A73988D28E48DC30035616D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A73988F28E48DC30035616D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A73989628E494930035616D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HelloWorld/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A73989828E495240035616D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		7A73987528E48DC20035616D = {
 			isa = PBXGroup;
 			children = (
+				7A73989828E495240035616D /* Main.storyboard */,
+				7A73989528E494930035616D /* Main.storyboard */,
 				7A73988028E48DC20035616D /* HelloWorld */,
 				7A73987F28E48DC20035616D /* Products */,
 			);
@@ -126,8 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A73988E28E48DC30035616D /* LaunchScreen.storyboard in Resources */,
+				7A73989928E495240035616D /* Main.storyboard in Resources */,
 				7A73988B28E48DC30035616D /* Assets.xcassets in Resources */,
 				7A73988928E48DC20035616D /* Main.storyboard in Resources */,
+				7A73989728E494930035616D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +169,14 @@
 				7A73988D28E48DC30035616D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7A73989528E494930035616D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A73989628E494930035616D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -289,6 +305,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4CYWLJ3FQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +333,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4CYWLJ3FQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
